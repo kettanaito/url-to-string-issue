@@ -1,4 +1,4 @@
-const { URL: CustomURL, URL } = require('url')
+const { URL: CustomURL } = require('url')
 
 it('result of "url.toString()" equals to "url.href"', () => {
   const url = new CustomURL('https://example.com/?id=123')
